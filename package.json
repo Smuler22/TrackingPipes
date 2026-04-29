@@ -2,6 +2,7 @@
   "name": "trackingpipes",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Smuler22.github.io/TrackingPipes",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -9,6 +10,8 @@
     "react-router-dom": "^6.14.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
